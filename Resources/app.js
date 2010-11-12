@@ -47,7 +47,7 @@ tabGroup.addTab(currentMilageTab);
 tabGroup.addTab(addEntryTab);
 tabGroup.addTab(listingTab);
 
-tabGroup.addEventListener('focus', function(e)
+/*tabGroup.addEventListener('focus', function(e)
 {
   setTimeout(function()
     {       
@@ -61,7 +61,7 @@ tabGroup.addEventListener('focus', function(e)
       title:'Bike Mileage',
       backgroundColor:'#fff'
     });
-    tabGroup.tabs[tabGroup.activeTab].open(win1);
+    tabGroup.tabs[tabGroup.activeTab].show;
     Ti.API.info('Opened win1');
   } else if(tabGroup.activeTab==2) {
     Ti.API.info('Opening win1');
@@ -70,11 +70,11 @@ tabGroup.addEventListener('focus', function(e)
       title:'Mileage Listing',
       backgroundColor:'#fff'
     });
-    tabGroup.tabs[tabGroup.activeTab].open(win2);
+    tabGroup.tabs[tabGroup.activeTab].show;
     Ti.API.info('Opened win2');
   }
 
-});
+});*/
 
 // open tab group
 tabGroup.open();
